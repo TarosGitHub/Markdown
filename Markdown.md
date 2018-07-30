@@ -134,27 +134,27 @@ __強い強調__
 
 [Googleで検索](https://www.google.co.jp/)
 
-Markdown文書の途中に長いリンクを記述したくない場合や同じリンクの参照を何度も利用する場合は、リンク先への参照を定義することができる。リンクは`[リンクのテキスト](リンクの参照)`と記述し、リンクの参照は`[リンクの参照]: リンクのアドレス "リンクのタイトル"`と記述する。`"リンクのタイトル"`は省略可能である。
+Markdown文書の途中に長いリンクを記述したくない場合や同じリンクの参照を何度も利用する場合は、リンク先への参照を定義することができる。本文中のリンクは`[リンクの参照名]`と記述し、リンクの参照は`[リンクの参照名]: リンクのアドレス`と記述する。
 
-    [Googleで検索](google_ref)
-
-    ・・・他の文章・・・
-
-    [Googleで検索](google_ref)
+    [Googleで検索]
 
     ・・・他の文章・・・
 
-    [google_ref]: https://www.google.co.jp/ "Google"
+    [Googleで検索]
 
-[Googleで検索](google_ref)
+    ・・・他の文章・・・
+
+    [Googleで検索]: https://www.google.co.jp/
+
+[Googleで検索]
 
 ・・・他の文章・・・
 
-[Googleで検索](google_ref)
+[Googleで検索]
 
 ・・・他の文章・・・
 
-[google_ref]: https://www.google.co.jp/ "Google"
+[Googleで検索]: https://www.google.co.jp/
 
 ## 水平線
 
